@@ -42,3 +42,21 @@ Linking initials ...
 @ initials % ./initials
 "t. s."
 ```
+
+## コメントの書き方
+Haskellのプログラム中にコメントを書くには、
+
+- 単一行：「--」の後に続けて書く
+- 複数行：「{-」と「-}」の間に書く
+
+```haskell
+-- コメント
+main = putStrLn "Hello, Haskell!"
+```
+
+```haskell
+{-
+複数行での
+コメント
+-}
+```
