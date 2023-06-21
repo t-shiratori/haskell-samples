@@ -1,11 +1,11 @@
 
 ## stackでghcコマンドを実行してファイルをコンパイルするやり方
 ```
-stack ghc hello.hs
+stack ghc main.hs
 ```
 コンパイルされたファイルを実行
 ```
-./hello
+./main
 ```
 
 ## REPL
@@ -59,4 +59,16 @@ main = putStrLn "Hello, Haskell!"
 複数行での
 コメント
 -}
+```
+
+## stackでghcコマンドを実行してファイルをコンパイルするやり方
+
+```bash
+stack ghc main.hs
+```
+
+コンパイルされたファイルを実行
+
+```bash
+./hello
 ```
