@@ -41,7 +41,11 @@ treeElem x (Node a left right)
 
 main = do
 
+    {- 空の木から始め、リストを右から巡ってアキュムレーターの木に要素を追加していく 　-}
     let nums = [8,6,4,1,7,3,5]
     let numsTree = foldr treeInsert EmptyTree nums
     print numsTree
+
+    print (treeElem 3 numsTree)
+    print (treeElem 9 numsTree)
     
